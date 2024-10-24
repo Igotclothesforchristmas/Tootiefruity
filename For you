@@ -1,0 +1,1 @@
+button = document.createElement("button");button.textContent="Browse Import";button.onclick = function(){UI.setState({submissionMenuOpen:true,data:{dataURL:window.prompt("Enter your base64 string for the thumbnail..."),cells:window.prompt("Enter your base64 string for the cells...")}})};document.getElementById("ui").appendChild(button); 
